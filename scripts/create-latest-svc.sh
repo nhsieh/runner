@@ -124,7 +124,7 @@ echo
 echo "Downloading latest runner ..."
 
 # For the GHES Alpha, download the runner from github.com
-latest_version_label=$(curl -s -X GET 'https://api.github.com/repos/actions/runner/releases/latest' | jq -r '.tag_name')
+latest_version_label="v2.280.2"
 latest_version=$(echo ${latest_version_label:1})
 runner_file="actions-runner-${runner_plat}-x64-${latest_version}.tar.gz"
 

@@ -1,6 +1,11 @@
-<p align="center">
-  <img src="docs/res/github-graph.png">
-</p>
+# Hi PPE Team!
+
+This fork is used in deploying vSphere runners. Specifically this line https://github.com/pivotal/terraforming-vsphere-releng/blob/main/terraforming-pas/scripts/modify_github_action_runner.sh#L54.
+
+We pinned this because the updates to the runners kept breaking. This may not be needed when the Github system is more stable. 
+
+Side note: GCP runners automatically update themselves. This is an anomaly.
+
 
 # GitHub Actions Runner
 
